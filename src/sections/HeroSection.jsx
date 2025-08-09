@@ -24,7 +24,7 @@ const Hero = () => {
         <h2 className="text-2xl animate-wave -mt-2"> 👋</h2>
       </div>
 
-      <div className="job-description text-3xl md:text-5xl font-medium text-center  md-2 mb-2 md:mb-5">
+      <div className="job-description text-xl md:text-5xl font-medium text-center  md-2 mb-2 md:mb-5">
         <h1>frontend Web developer</h1>
         <h1> based in Nigeria.</h1>
       </div>
