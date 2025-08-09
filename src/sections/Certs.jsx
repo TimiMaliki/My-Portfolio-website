@@ -113,8 +113,8 @@ const Achievement = () => {
                     <span>Personal Portfolio Website</span>
                   </li>
                 </ul>
-                <p className="">
-                  <strong>Download Certification:</strong>{" "}
+                <p className="text-md md:text-lg">
+                  Download Certification:
                   <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
@@ -206,8 +206,8 @@ const Achievement = () => {
                     <span>Cash Register ProjectCertification Project</span>
                   </li>
                 </ul>
-                <p className="">
-                  <strong>Download Certification:</strong>{" "}
+                <p className="text-md md:text-lg">
+                 Download Certification:
                   <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
@@ -271,8 +271,8 @@ const Achievement = () => {
                     </span>
                   </li>
                 </ul>
-                <p className="">
-                  <strong>Download Certification:</strong>{" "}
+                <p className="text-md md:text-lg">
+                 Download Certification:
                   <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
@@ -343,8 +343,8 @@ const Achievement = () => {
                     <span>Studio-i.O : <a href="https://github.com/TimiMaliki/GSAP_PROJECTS">Click link</a></span>
                   </li>
                 </ul>
-                <p className="">
-                  <strong>Download Certification:</strong>{" "}
+                <p className="text-md md:text-lg">
+                 Download Certification:
                   <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
@@ -373,8 +373,8 @@ const Achievement = () => {
                   </h3>
                 </div>
                 <p className=" mb-4">Complete 1000 mentorship minutes</p>
-                <p className="">
-                  <strong>Download Certification:</strong>{" "}
+                <p className="text-md md:text-lg">
+                 Download Certification:
                   <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"

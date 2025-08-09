@@ -4,7 +4,7 @@ const Buttons = ({ icons, text, color, textColor , doc  }) => {
         className={` px-3 py-3 md:px-6 md:py-3 ovo-regular rounded-full  gap-4 ${color} ${textColor}`}
       >
         <a href={doc} download>
-        <div className="flex justify-center text-center align-middle font-bold gap-3">
+        <div className="flex justify-center text-center align-middle font-light md:font-bold gap-3">
           {text}
         {icons} 
         </div>
