@@ -10,7 +10,7 @@ const Services = () => {
         <div className="max-w-7xl grid place-content-center mx-auto w-full py-8 ovo-regular" id="service">
             <Header intro={"What I offer"} title={"My Services"}/>
             <div className="text-center">
-                <h2 className="text-xl p-5 md:p-10">
+                <h2 className="text-md md:text-xl p-5 md:p-10">
             "I aim to contribute to the success of your company by <br /> leveraging my technical skills and problem-solving mindset to build impactful web solutions."
                 </h2>
             </div>
