@@ -92,9 +92,9 @@ const Navbar = () => {
 
         <button onClick={() => isOpen(!open)} className="md:hidden">
           {open ? (
-            <XMarkIcon className="w-8 h-8 " />
+            <XMarkIcon className="w-8 h-8 font-light" />
           ) : (
-            <FaAlignRight className="w-8 h-8 " />
+            <FaAlignRight className="w-8 h-8 font-light" />
           )}
         </button>
       </div>
@@ -121,16 +121,16 @@ const Navbar = () => {
             aria-label="Toggle Dark Mode"
           >
             {darkMode ? (
-              <SunIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+              <SunIcon className={`w-8 h-8 font-light ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
             ) : (
-              <MoonIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+              <MoonIcon className={`w-8 h-8 font-light ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
             )}
           </button>
 
           {/* GitHub Contact */}
 
          <a href="https://github.com/TimiMaliki">
-         <FaGithub className={`w-8 h-10 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+         <FaGithub className={`w-8 h-10  font-light ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
          </a>
         </div>
         </div>
