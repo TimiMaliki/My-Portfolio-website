@@ -13,7 +13,7 @@ const Achievement = () => {
       {/* Achievement Section */}
       <div className="relative py-4 md:py-20 px-4 lg:px-8 overflow-hidden ovo-regular">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl lg:text-6xl font-extrabold mb-6 p-3 md:p-0">
+          <h1 className="text-2xl lg:text-6xl font-bold md:font-extrabold mb-6 p-3 md:p-0">
             My Little Achievements
           </h1>
           <p className="text-xl lg:text-2xl  max-w-4xl mx-auto">
@@ -36,7 +36,7 @@ const Achievement = () => {
                   <div className="bg-purple-100 text-purple-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     1
                   </div>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
                     FreeCodeCamp - Responsive Web Design 2022
                   </h3>
                 </div>
@@ -138,7 +138,7 @@ const Achievement = () => {
                   <div className="bg-blue-100 text-blue-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     2
                   </div>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
                     FreeCodeCamp - JavaScript Algorithms and Data Structures
                     2024
                   </h3>
@@ -231,7 +231,7 @@ const Achievement = () => {
                   <div className="bg-pink-100 text-pink-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     3
                   </div>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
                     Udemy - Dora Master Course 2024
                   </h3>
                 </div>
@@ -296,7 +296,7 @@ const Achievement = () => {
                   <div className="bg-yellow-100 text-yellow-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     4
                   </div>
-                  <h3 className="text-2xl font-bold">Udemy - Web JavaScript Animations with GreenSock 2025</h3>
+                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">Udemy - Web JavaScript Animations with GreenSock 2025</h3>
                 </div>
                 <p className=" mb-4">Projects built :</p>
                 <ul className="space-y-2 mb-6">
@@ -368,7 +368,7 @@ const Achievement = () => {
                   <div className="bg-green-100 text-green-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     5
                   </div>
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
                  ADPList - Community Achievement
                   </h3>
                 </div>
