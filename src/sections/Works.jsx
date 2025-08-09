@@ -66,7 +66,7 @@ const LatestWorks = () => {
               </div>
 
               {/* Title & Description */}
-              <h3 className="text-xl font-bold mb-">{project.title}</h3>
+              <h3 className="text-md md:text-xl font-light md:font-bold mb-2">{project.title}</h3>
               <p className=" text-sm mb-4">{project.description}</p>
             </div>
           ))}
