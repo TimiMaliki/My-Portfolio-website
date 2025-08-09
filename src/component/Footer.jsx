@@ -4,13 +4,13 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
           {/* Logo and Description */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">Timi</h2>
+            <h2 className="text-xl md:text-2xl font-light md:font-bold mb-4">Timi</h2>
           </div>
   
           {/* Navigation Links */}
           <div className="">
-            <h3 className="text-xl font-semibold mb-4">Navigation</h3>
-            <ul className="space-y-2">
+            <h3 className="text-md md:text-xl font-light md:font-semibold mb-4">Navigation</h3>
+            <ul className="space-y-2 text-md md:text-lg">
               <li><a href="/" className="hover:underline">Home</a></li>
               <li><a href="#about" className="hover:underline" >About me</a></li>
               <li><a href="#achievement" className="hover:underline" id="achievement">Little Achievements</a></li>

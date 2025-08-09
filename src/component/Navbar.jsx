@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* my name */}
         <Link to={"/"}>
-        <div className={`brand text-2xl ovo-regular font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
+        <div className={`brand text-lg md:text-2xl ovo-regular font-light md:font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
           {brandName}
         </div>
         </Link>
@@ -107,7 +107,7 @@ const Navbar = () => {
             <a
               href={nav.href}
               key={index}
-              className="text-md font-medium  hover:text-blue-900 transition-all duration-300"
+              className="text-md font-light md:font-medium  hover:text-blue-900 transition-all duration-300"
             >
               {nav.name}
             </a>
