@@ -14,7 +14,7 @@ const Card = ({ icon, header, text , more , readmore}) => {
         </button>
       </div>
       {readMore && (
-            <div className="text-lg flex text-center align-middle justify-center">{more}</div>
+            <div className="text-md md:text-lg flex text-center align-middle justify-center">{more}</div>
         )}
     </div>
   );
