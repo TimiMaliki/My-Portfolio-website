@@ -325,9 +325,11 @@ const Projects = () => {
         </div>
 
         {/* Project Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
           {currentProjects.map((project) => (
-            <div
+              <Link  to={`${project.link}`}>
+                   <div
               key={project.id}
               className="group relative  border border-gray-100 dark:border-slate-700 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
             >
@@ -352,7 +354,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs px-2 py-1  bg-blue-500  rounded-full"
+                      className="text-md px-2 py-1  bg-slate-200  rounded-full"
                     >
                       {tag}
                     </span>
@@ -367,6 +369,8 @@ const Projects = () => {
                 </Link>
               </div>
             </div>
+              </Link>
+           
           ))}
         </div>
 

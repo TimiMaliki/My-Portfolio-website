@@ -40,8 +40,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky top-0 left-0  w-full z-50 ${
-        darkMode ? "" : ""
+      className={`sticky top-0 left-0  w-full z-50  ${
+        darkMode ? "bg-black text-white" : "bg-white text-black"
       }`}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-4">
@@ -83,7 +83,7 @@ const Navbar = () => {
 
           {/* GitHub Contact */}
 
-         <a href="https://github.com/TimiMaliki">
+         <a href="https://github.com/TimiMaliki" target="_blank" rel="norefer">
          <FaGithub className={`w-8 h-10 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
          </a>
         </div>

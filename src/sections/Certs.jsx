@@ -11,7 +11,7 @@ const Achievement = () => {
   return (
     <div className="w-full" id="achievement">
       {/* Achievement Section */}
-      <div className="relative py-4 md:py-20 px-4 lg:px-8 overflow-hidden ovo-regular">
+      <div className="relative py-4 md:py-0 px-4 lg:px-8 overflow-hidden ovo-regular">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-2xl lg:text-6xl font-bold md:font-extrabold mb-6 p-3 md:p-0">
             My Little Achievements
@@ -33,7 +33,7 @@ const Achievement = () => {
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
-                  <div className="bg-purple-100 text-purple-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                  <div className="bg-purple-100 text-purple-600 font-bold rounded-full p-5 w-12 h-12 flex items-center justify-center align-items mr-4">
                     1
                   </div>
                   <h3 className="text-xl md:text-2xl font-normal md:font-bold">
@@ -113,9 +113,10 @@ const Achievement = () => {
                     <span>Personal Portfolio Website</span>
                   </li>
                 </ul>
-                <p className="text-md md:text-lg">
-                  Download Certification:
-                  <Buttons
+                  <div className="flex justify-center align-middle gap-2">
+                  <p className="text-md md:text-lg"> Download Certification : </p>
+                <div className="download -my-1 md:-my-3">
+                <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
                     }
@@ -124,7 +125,8 @@ const Achievement = () => {
                     text={"Document"}
                     doc={rwd}
                   />
-                </p>
+                </div>
+                  </div>
               </div>
             </div>
             <div className="lg:w-1/2 lg:pl-16 order-2 lg:order-2"></div>
@@ -135,7 +137,7 @@ const Achievement = () => {
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-2">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
-                  <div className="bg-blue-100 text-blue-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                  <div className="bg-blue-100 text-blue-600 font-bold p-5 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     2
                   </div>
                   <h3 className="text-xl md:text-2xl font-normal md:font-bold">
@@ -206,9 +208,10 @@ const Achievement = () => {
                     <span>Cash Register ProjectCertification Project</span>
                   </li>
                 </ul>
-                <p className="text-md md:text-lg">
-                 Download Certification:
-                  <Buttons
+                <div className="flex justify-center align-middle gap-2">
+                  <p className="text-md md:text-lg"> Download Certification : </p>
+                <div className="download -my-1 md:-my-3">
+                <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
                     }
@@ -217,7 +220,8 @@ const Achievement = () => {
                     text={"Document"}
                     doc={Js}
                   />
-                </p>
+                </div>
+                  </div>
               </div>
             </div>
             <div className="lg:w-1/2 lg:pl-16 order-2 lg:order-1"></div>
@@ -228,7 +232,7 @@ const Achievement = () => {
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
-                  <div className="bg-pink-100 text-pink-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                  <div className="bg-pink-100 text-pink-600 font-bold p-5 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     3
                   </div>
                   <h3 className="text-xl md:text-2xl font-normal md:font-bold">
@@ -271,9 +275,11 @@ const Achievement = () => {
                     </span>
                   </li>
                 </ul>
-                <p className="text-md md:text-lg">
-                 Download Certification:
-                  <Buttons
+
+                <div className="flex justify-center align-middle gap-2">
+                  <p className="text-md md:text-lg"> Download Certification : </p>
+                <div className="download -my-1 md:-my-3">
+                <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
                     }
@@ -282,7 +288,9 @@ const Achievement = () => {
                     text={"Document"}
                     doc={dora}
                   />
-                </p>
+                </div>
+                  </div>           
+
               </div>
             </div>
             <div className="lg:w-1/2 lg:pl-16 order-2 lg:order-2"></div>
@@ -293,7 +301,7 @@ const Achievement = () => {
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-2">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
-                  <div className="bg-yellow-100 text-yellow-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                  <div className="bg-yellow-100 text-yellow-600 font-bold  p-5 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     4
                   </div>
                   <h3 className="text-xl md:text-2xl font-normal md:font-bold">Udemy - Web JavaScript Animations with GreenSock 2025</h3>
@@ -343,9 +351,10 @@ const Achievement = () => {
                     <span>Studio-i.O : <a href="https://github.com/TimiMaliki/GSAP_PROJECTS">Click link</a></span>
                   </li>
                 </ul>
-                <p className="text-md md:text-lg">
-                 Download Certification:
-                  <Buttons
+                <div className="flex justify-center align-middle gap-2">
+                  <p className="text-md md:text-lg"> Download Certification : </p>
+                <div className="download -my-1 md:-my-3">
+                <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
                     }
@@ -354,7 +363,8 @@ const Achievement = () => {
                     text={"Document"}
                     doc={gsap}
                   />
-                </p>
+                </div>
+                  </div>           
               </div>
             </div>
             <div className="lg:w-1/2 lg:pl-16 order-2 lg:order-1"></div>
@@ -365,7 +375,7 @@ const Achievement = () => {
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
-                  <div className="bg-green-100 text-green-600 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                  <div className="bg-green-100 text-green-600 p-5 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     5
                   </div>
                   <h3 className="text-xl md:text-2xl font-normal md:font-bold">
@@ -373,9 +383,10 @@ const Achievement = () => {
                   </h3>
                 </div>
                 <p className=" mb-4">Complete 1000 mentorship minutes</p>
-                <p className="text-md md:text-lg">
-                 Download Certification:
-                  <Buttons
+                <div className="flex justify-center align-middle gap-2">
+                  <p className="text-md md:text-lg"> Download Certification : </p>
+                <div className="download -my-1 md:-my-3">
+                <Buttons
                     color={
                       "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
                     }
@@ -384,7 +395,9 @@ const Achievement = () => {
                     text={"Document"}
                     doc={adp}
                   />
-                </p>
+                </div>
+                  </div>           
+
               </div>
             </div>
             <div className="lg:w-1/2 lg:pl-16 order-2 lg:order-2"></div>

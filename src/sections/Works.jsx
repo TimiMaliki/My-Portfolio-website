@@ -45,7 +45,7 @@ const LatestWorks = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group relative  p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100  "
+              className="group relative  p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100  cursor-pointer "
             >
               {/* Image */}
               <div className="overflow-hidden rounded-xl mb-5">
