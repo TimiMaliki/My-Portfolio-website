@@ -380,7 +380,7 @@ const Projects = () => {
             <button
               key={page}
               onClick={() => setCurrentPage(page)}
-              className={`w-10 h-10 rounded-full flex items-center justify-center font-medium text-sm transition-colors ${
+              className={`w-10 h-10  p-2 rounded-full flex items-center justify-center font-medium text-sm transition-colors ${
                 currentPage === page
                   ? "bg-blue-600 shadow"
                   : " hover:bg-purple-50 border border-gray-200"
