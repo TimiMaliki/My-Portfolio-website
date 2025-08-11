@@ -10,6 +10,8 @@ import vsLight from "../img/tool/logoLight.png";
 import figmaLight from "../img/tool/figmaLight.png";
 import gitLight from "../img/tool/gitLight.png";
 import stackLight from "../img/tool/stackIcon.png";
+import wordprss from "../img/tool/wordpress_14063231.png";
+import wix from "../img/tool/wix_5968753.png";
 
 const AboutMe = () => {
   return (
@@ -85,14 +87,20 @@ const AboutMe = () => {
           <div className="box-one">
             <img src={vsLight} alt="vscode" className="w-[40px] h-[40px]" />
           </div>
-          <div className="box-one">
+          <div className="box-two">
             <img src={gitLight} alt="github" className="w-[40px] h-[40px]" />
           </div>
-          <div className="box-one">
+          <div className="box-three">
             <img src={figmaLight} alt="figma" className="w-[40px] h-[40px]" />
           </div>
-          <div className="box-one">
+          <div className="box-three">
             <img src={stackLight} alt="stack" className="w-[40px] h-[40px]" />
+          </div>
+          <div className="box-four">
+            <img src={wordprss} alt="stack" className="w-[40px] h-[40px]" />
+          </div>
+          <div className="box-five">
+            <img src={wix} alt="stack" className="w-[40px] h-[40px]" />
           </div>
         </div>
       </div>
