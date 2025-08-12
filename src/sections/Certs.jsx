@@ -11,12 +11,12 @@ const Achievement = () => {
   return (
     <div className="w-full" id="achievement">
       {/* Achievement Section */}
-      <div className="relative py-4 md:py-0 px-4 lg:px-8 overflow-hidden ovo-regular">
+      <div className="relative py-2 md:py-0 px-4 lg:px-8 overflow-hidden ovo-regular text-center">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-2xl lg:text-6xl font-bold md:font-extrabold mb-6 p-3 md:p-0">
-            My Little Achievements
+          <h1 className="text-2xl lg:text-9xl font-bold md:font-extrabold mb-6 p-3 md:p-0">
+           Achievements
           </h1>
-          <p className="text-xl lg:text-2xl  max-w-4xl mx-auto">
+          <p className="text-xl lg:text-2xl  max-w-4xl mx-auto text-center">
             "Milestones That Reflect My Journey"
           </p>
         </div>
@@ -40,7 +40,7 @@ const Achievement = () => {
                     FreeCodeCamp - Responsive Web Design 2022
                   </h3>
                 </div>
-                <p className=" mb-4">Projects Built:</p>
+                <p className=" mb-4">Projects Built   :</p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
                     <svg
@@ -54,7 +54,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Survey Form</span>
+                    <span>Survey Form – A responsive form with structured input fields and accessibility in mind.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -68,7 +68,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Tribute Page</span>
+                    <span>Tribute Page – A clean, semantic HTML page honoring a notable figure E.g chadwick boseman.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -82,7 +82,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Technical Documentation Page</span>
+                    <span>Technical Documentation Page – Structured documentation layout with a sticky navigation bar.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -96,7 +96,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Product Landing Page</span>
+                    <span>Product Landing Page – A responsive promotional page with call-to-action sections.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -110,7 +110,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Personal Portfolio Website</span>
+                    <span>Personal Portfolio Website – A showcase of projects with responsive design and smooth navigation.</span>
                   </li>
                 </ul>
                   <div className="flex justify-center align-middle gap-2">
@@ -159,7 +159,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Palindrome Checker ProjectCertification Project</span>
+                    <span>Palindrome Checker – Determines if a given string reads the same forward and backward.</span>
                   </li>
                   <li className="flex items-start">
                     <svg
@@ -174,7 +174,7 @@ const Achievement = () => {
                       />
                     </svg>
                     <span>
-                      Roman Numeral Converter ProjectCertification Project
+                    Roman Numeral Converter – Converts numbers to Roman numeral representation.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -190,7 +190,7 @@ const Achievement = () => {
                       />
                     </svg>
                     <span>
-                      Telephone Number Validator ProjectCertification Project
+                    Telephone Number Validator – Validates U.S. phone number formats.
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -205,7 +205,7 @@ const Achievement = () => {
                         clipRule="evenodd"
                       />
                     </svg>
-                    <span>Cash Register ProjectCertification Project</span>
+                    <span>Cash Register – Simulates a cash register that returns change based on available currency.</span>
                   </li>
                 </ul>
                 <div className="flex justify-center align-middle gap-2">
