@@ -39,7 +39,7 @@ const Achievement = () => {
                     FreeCodeCamp - Responsive Web Design 2022
                   </h3>
                 </div>
-                <p className=" mb-4">Projects Built :</p>
+                <p className=" mb-4">Projects Built:</p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
                     <svg
@@ -162,7 +162,7 @@ const Achievement = () => {
                     2024
                   </h3>
                 </div>
-                <p className=" mb-4">Projects Built :</p>
+                <p className=" mb-4">Projects Built:</p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
                     <svg
@@ -275,7 +275,7 @@ const Achievement = () => {
                   feel familiar—like Figma—but enhanced with motion, dimension,
                   and AI-driven suggestions for layouts and responsiveness
                 </p>
-                <p className=" mb-4">Key Learnings :</p>
+                <p className=" mb-4">Key Learnings:</p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
                     <svg
@@ -317,7 +317,7 @@ const Achievement = () => {
                 <div className="flex justify-center align-middle gap-2">
                   <p className="text-md md:text-lg">
                     {" "}
-                    Download Certification :{" "}
+                    Download Certification:{" "}
                   </p>
                   <div className="download -my-1 md:-my-3">
                     <Buttons
@@ -348,7 +348,7 @@ const Achievement = () => {
                     Udemy - Web JavaScript Animations with GreenSock 2025
                   </h3>
                 </div>
-                <p className=" mb-4">Projects built :</p>
+                <p className=" mb-4">Projects built:</p>
                 <ul className="space-y-2 mb-6">
                   <li className="flex items-start">
                     <svg
@@ -363,7 +363,7 @@ const Achievement = () => {
                       />
                     </svg>
                     <span>
-                    Alabi AutoMobile – Interactive automotive website with smooth GSAP-powered animations . : {" "}
+                    Alabi AutoMobile – Interactive automotive website with smooth GSAP-powered animations.: {" "}
                     <a href="https://github.com/TimiMaliki/GSAP_PROJECTS">
                         View Project
                       </a>
@@ -382,7 +382,7 @@ const Achievement = () => {
                       />
                     </svg>
                     <span>
-                    International Home Decoration – Stylish home décor site featuring engaging scroll-based effects. :{" "}
+                    International Home Decoration – Stylish home décor site featuring engaging scroll-based effects.:{" "}
                       <a href="https://github.com/TimiMaliki/GSAP_PROJECTS">
                       View Project
                       </a>
@@ -401,7 +401,7 @@ const Achievement = () => {
                       />
                     </svg>
                     <span>
-                    Studio-i.O – Minimalist creative studio site enhanced with dynamic animations. :{" "}
+                    Studio-i.O – Minimalist creative studio site enhanced with dynamic animations.:{" "}
                       <a href="https://github.com/TimiMaliki/GSAP_PROJECTS">
                       View Project
                       </a>
@@ -411,7 +411,7 @@ const Achievement = () => {
                 <div className="flex justify-center align-middle gap-2">
                   <p className="text-md md:text-lg">
                     {" "}
-                    Download Certification :{" "}
+                    Download Certification:{" "}
                   </p>
                   <div className="download -my-1 md:-my-3">
                     <Buttons
@@ -448,7 +448,7 @@ const Achievement = () => {
                 <div className="flex justify-center align-middle gap-2">
                   <p className="text-md md:text-lg">
                     {" "}
-                    Download Certification :{" "}
+                    Download Certification:{" "}
                   </p>
                   <div className="download -my-1 md:-my-3">
                     <Buttons
