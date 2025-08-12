@@ -211,8 +211,8 @@ const Achievement = () => {
                       />
                     </svg>
                     <span>
-                      Telephone Number Validator – Validates U.S. phone number
-                      formats.
+                      Telephone Number Validator – A progrem that validates U.S. phone number
+                      formats. 
                     </span>
                   </li>
                   <li className="flex items-start">
