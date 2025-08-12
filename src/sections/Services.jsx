@@ -2,7 +2,7 @@ import Header from "../component/Headers";
 import Card from "../component/card";
 import webDesign from "../img/tool/globe_17267121.png";
 import teaching from "../img/tool/teacher_12770608.png";
-import behance from "../img/tool/behance_220615.png";
+// import behance from "../img/tool/behance_220615.png";
 import gallery from "../img/tool/drawing_7347268.png";
 
 const Services = () => {
@@ -15,7 +15,7 @@ const Services = () => {
                 </h2>
             </div>
 
-            <div className="cards grid md:grid-cols-4 grid-cols-1 gap-4 md:p-0 p-5 py-7">
+            <div className="cards grid md:grid-cols-3 grid-cols-1 gap-4 md:p-0 p-5 py-7">
             <div className="card-one">
             <Card
                 icon={webDesign}
@@ -46,7 +46,7 @@ const Services = () => {
               />
             </div>
 
-
+{/* 
             <div className="card-three">
             <Card
                 icon={behance}
@@ -58,7 +58,7 @@ const Services = () => {
                 more={`With a deep understanding of UI/UX principles, I craft user interfaces that are not only visually 
                 engaging but also highly functional—ensuring seamless, accessible, and intuitive experiences across all devices`}
               />
-            </div>
+            </div> */}
 
 
 
