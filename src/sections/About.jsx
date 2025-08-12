@@ -99,7 +99,7 @@ const AboutMe = () => {
           <div className="box-four">
             <img src={wordprss} alt="stack" className="w-[40px] h-[40px]" />
           </div>
-          <div className="box-five">
+          <div className="box-five border border-white rounded-full">
             <img src={wix} alt="stack" className="w-[40px] h-[40px]" />
           </div>
         </div>

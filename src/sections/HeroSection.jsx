@@ -17,14 +17,14 @@ const Hero = () => {
       </div>
 
       <div
-        className="myName flex justify-center gap-4 mb-3 md:mb-3"
+        className="myName flex justify-center gap-4 mb-1 md:mb-3"
         style={{ letterSpacing: "2px" }}
       >
         <h3 className="font-normal text-lg">Hi! I'm Timi Maliki</h3>
         <h2 className="text-2xl animate-wave -mt-2"> 👋</h2>
       </div>
 
-      <div className="job-description text-xl md:text-4xl font-medium text-center md-2 mb-2 md:mb-5 w-[300px]">
+      <div className="job-description text-lg p-2 md:p-0 md:text-4xl font-medium text-center  mb-2 md:mb-5 ">
         <h1>I am a Frontend Web developer from Ebonyi State  Nigeria</h1>
       </div>
   

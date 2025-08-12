@@ -259,7 +259,7 @@ const Achievement = () => {
                   </li>
                   <li className="flex items-start">
                     <svg
-                      className="w-6 h-6 text-pink-500 mr-2 mt-0.5"
+                      className="w-8 h-8 md:w-6 md:h-6 text-pink-500 mr-2 mt-0.5"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
