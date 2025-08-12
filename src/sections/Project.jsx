@@ -354,7 +354,7 @@ const Projects = () => {
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-md px-2 py-1  bg-slate-200  rounded-full"
+                      className="text-md px-2 py-1  bg-slate-300  rounded-full"
                     >
                       {tag}
                     </span>
