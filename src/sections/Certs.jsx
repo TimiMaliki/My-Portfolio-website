@@ -291,27 +291,10 @@ const Achievement = () => {
                     </svg>
                     <span>
                       Mastered both the core features and advanced capabilities
-                      of the Dora platform to create optimized, user-friendly
-                      designs.
+                      of the Dora platform to create optimized.
                     </span>
                   </li>
-                  <li className="flex items-start">
-                    <svg
-                      className="w-8 h-8 md:w-6 md:h-6 text-pink-500 mr-2 mt-0.5"
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                    <span>
-                      Learnt the basic features of Dora and the advanced
-                      features of the platform
-                    </span>
-                  </li>
+                
                 </ul>
 
                 <div className="flex justify-center align-middle gap-2">
