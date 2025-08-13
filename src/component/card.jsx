@@ -16,7 +16,7 @@ const Card = ({ icon, header, text , more , readmore , hide}) => {
       <div className="read-more w-full flex text-center align-middle justify-center ">
         {!readMore
           ?
-          <button onClick={()=> setReadMore(!readMore)} className="inline-flex text-md md:text-lg ovo-regular items-center justify-center relative outline-none cursor-pointer  hover:text-blue-600 select-none touch-manipulation font-bold  h-10 px-4 py-2.5 rounded-lg  transition-colors duration-300">
+          <button onClick={()=> setReadMore(!readMore)} className="underline inline-flex text-md md:text-lg ovo-regular items-center justify-center relative outline-none cursor-pointer  hover:text-blue-600 select-none touch-manipulation font-bold  h-10 px-4 py-2.5 rounded-lg  transition-colors duration-300">
         {readmore}
         </button>
          :
