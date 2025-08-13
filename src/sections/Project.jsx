@@ -80,7 +80,7 @@ const projectsData = [
     image: woof,
     category: "ReactJs",
     tags: ["Reactjs", "Tailwindcss", "Dog API"],
-    link : "https:// woofipedia.vercel.app"
+    link : "https://woofipedia.vercel.app"
   },
   {
     id: 6,
@@ -246,7 +246,7 @@ const projectsData = [
     image: age,
     category:"JavaScript",
     tags: ["Html", "Css","JavaScript"],
-    link : "http://music-nu-three.vercel.app/"
+    link : "https://age-calculator-ten.vercel.app/"
   },
   {
     id: 24,
