@@ -41,9 +41,9 @@ const Achievement = () => {
                 </div>
                 <p className=" mb-4">Projects Built:</p>
                 <ul className="space-y-2 mb-6">
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-purple-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-purple-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -58,9 +58,9 @@ const Achievement = () => {
                       fields and accessibility in mind.
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-purple-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-purple-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -75,9 +75,9 @@ const Achievement = () => {
                       notable figure E.g chadwick boseman.
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-purple-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-purple-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -92,9 +92,9 @@ const Achievement = () => {
                       layout with a sticky navigation bar.
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-purple-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-purple-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -109,9 +109,9 @@ const Achievement = () => {
                       call-to-action sections.
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-purple-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-purple-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -135,7 +135,7 @@ const Achievement = () => {
                   <div className="download -my-1 md:-my-3">
                     <Buttons
                       color={
-                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
+                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] hover:bg-purple-500 transition-all duration-300"
                       }
                       textColor={""}
                       icons={<FaArrowDown className="w-5 h-5 mt-1 " />}
@@ -164,9 +164,9 @@ const Achievement = () => {
                 </div>
                 <p className=" mb-4">Projects Built:</p>
                 <ul className="space-y-2 mb-6">
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-blue-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-blue-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -181,9 +181,9 @@ const Achievement = () => {
                       the same forward and backward.
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-blue-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-blue-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -198,9 +198,9 @@ const Achievement = () => {
                       numeral representation.
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-blue-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-blue-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -215,9 +215,9 @@ const Achievement = () => {
                       formats. 
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-blue-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-blue-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -241,7 +241,7 @@ const Achievement = () => {
                   <div className="download -my-1 md:-my-3">
                     <Buttons
                       color={
-                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
+                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] hover:bg-blue-500 transition-all duration-300"
                       }
                       textColor={""}
                       icons={<FaArrowDown className="w-5 h-5 mt-1 " />}
@@ -277,9 +277,9 @@ const Achievement = () => {
                 </p>
                 <p className=" mb-4">Key Learnings:</p>
                 <ul className="space-y-2 mb-6">
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-pink-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-pink-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -305,7 +305,7 @@ const Achievement = () => {
                   <div className="download -my-1 md:-my-3">
                     <Buttons
                       color={
-                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
+                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]  hover:bg-pink-500 hover:text-black transition-all duration-300"
                       }
                       textColor={""}
                       icons={<FaArrowDown className="w-5 h-5 mt-1 " />}
@@ -333,9 +333,9 @@ const Achievement = () => {
                 </div>
                 <p className=" mb-4">Projects built:</p>
                 <ul className="space-y-2 mb-6">
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-yellow-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-yellow-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -352,9 +352,9 @@ const Achievement = () => {
                       </a>
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-yellow-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-yellow-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -371,9 +371,9 @@ const Achievement = () => {
                       </a>
                     </span>
                   </li>
-                  <li className="flex items-start">
+                  <li className="flex items-start flex-shrink-0 flex-grow-0">
                     <svg
-                      className="w-5 h-5 text-yellow-500 mr-2 mt-0.5"
+                      className="w-7 h-7 text-yellow-500 mr-2 mt-0.5 flex-shrink-0 flex-grow-0"
                       fill="currentColor"
                       viewBox="0 0 20 20"
                     >
@@ -399,7 +399,7 @@ const Achievement = () => {
                   <div className="download -my-1 md:-my-3">
                     <Buttons
                       color={
-                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
+                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] hover:bg-yellow-500 transition-all duration-300"
                       }
                       textColor={""}
                       icons={<FaArrowDown className="w-5 h-5 mt-1 " />}
@@ -417,8 +417,8 @@ const Achievement = () => {
           <div className="flex flex-col lg:flex-row items-center">
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
-                <div className="flex items-center mb-4">
-                  <div className="bg-green-100 text-green-600 p-5 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                <div className="flex items-center mb-4 flex-shrink-0 flex-grow-0">
+                  <div className="bg-green-100 text-green-600 p-5 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0 flex-grow-0">
                     5
                   </div>
                   <h3 className="text-xl md:text-2xl font-normal md:font-bold">
@@ -436,7 +436,7 @@ const Achievement = () => {
                   <div className="download -my-1 md:-my-3">
                     <Buttons
                       color={
-                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"
+                        "border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] hover:bg-green-600 transition-all duration-300"
                       }
                       textColor={""}
                       icons={<FaArrowDown className="w-5 h-5 mt-1 " />}
