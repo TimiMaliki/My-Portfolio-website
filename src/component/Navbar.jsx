@@ -49,7 +49,7 @@ const Navbar = () => {
 
         {/* my name */}
         <Link to={"/"}>
-        <div className={`brand text-lg md:text-2xl ovo-regular font-light md:font-semibold ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
+        <div className={`brand text-lg md:text-2xl ovo-regular font-light md:font-semibold hover:text-blue-700  transition-all duration-300${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
           {brandName}
         </div>
         </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <a
               href={nav.href}
               key={index}
-              className={`text-lg font-medium ${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""}`}
+              className={`text-lg font-medium hover:text-blue-700 transition-all duration-300${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""}`}
             >
               {nav.name}
             </a>
@@ -75,16 +75,16 @@ const Navbar = () => {
             aria-label="Toggle Dark Mode"
           >
             {darkMode ? (
-              <SunIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+              <SunIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900  hover:text-blue-600 transition-all duration-300"}`} />
             ) : (
-              <MoonIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+              <MoonIcon className={`w-8 h-8 ${darkMode ? "text-blue-700" : "text-slate-900  hover:text-blue-600 transition-all duration-300"}`} />
             )}
           </button>
 
           {/* GitHub Contact */}
 
          <a href="https://github.com/TimiMaliki" target="_blank" rel="norefer">
-         <FaGithub className={`w-8 h-10 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
+         <FaGithub className={`w-8 h-10 hover:text-blue-900 transition-all duration-300 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
          </a>
         </div>
 

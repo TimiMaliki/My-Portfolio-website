@@ -23,7 +23,8 @@ const Services = () => {
                 text={
                   "I craft beautiful, user-friendly websites that not only look great but actually work. Think sleek layouts, smooth navigation, and a sprinkle of magic to keep your users hooked."
                 }
-                readmore={"readmore"}
+                readmore={"Read more"}
+                hide={"Hide"}
                 more={`I design clean, responsive, and user-centered websites that align with your 
                 brand and business goals. My focus is on creating intuitive layouts and seamless experiences that engage users and drive results.`}
               />
@@ -37,7 +38,8 @@ const Services = () => {
                 text={
                   `Beyond development, I’m passionate about sharing knowledge.`
                 }
-                readmore={"readmore"}
+                readmore={"Read more"}
+                hide={"Hide"}
                 more={`
                 I enjoy mentoring junior developers, 
                   simplifying complex concepts, and fostering growth within teams. Whether through pair programming, documentation, or training sessions, 
@@ -69,7 +71,8 @@ const Services = () => {
                 text={
                   "I also create eye-catching graphics—from social media posts to brand assets—that help your message stand out and leave a lasting impression"
                 }
-                readmore={"readmore"}
+                readmore={"Read more"}
+                hide={"Hide"}
                 more={"Need cool visuals? I whip up scroll-stopping designs that make your brand pop and your audience say ‘wow!"}
               />
             </div>

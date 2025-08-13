@@ -22,66 +22,69 @@ const AboutMe = () => {
       <Header intro={"Introduction"} title={"About me"} />
 
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0">
-  {/* Image */}
-  <div className="profile-picture flex justify-center items-center mb-2 md:mb-0 p-2 md:p-0">
-    <img
-      src={profilePicture}
-      alt="profilepicture"
-      className="w-full max-w-[350px] h-auto md:h-[450px] md:-mt-[528px] object-cover rounded-xl"
-    />
-  </div>
+        {/* Image */}
+        <div className="profile-picture flex justify-center items-center mb-2 md:mb-0 p-2 md:p-0">
+          <img
+            src={profilePicture}
+            alt="profilepicture"
+            className="w-full max-w-[350px] h-auto md:h-[450px] md:-mt-[528px] object-cover rounded-xl"
+          />
+        </div>
 
-  {/* Details */}
-  <div className="w-full details ovo-regular">
-    <div className="intro">
-      <h4 className="p-2 md:p-3 text-lg font-light md:font-semibold leading-relaxed">
-        I am a frontend developer with three years of experience creating
-        clean, user-friendly websites that deliver exceptional experiences.
-        My learning journey, though challenging, has been immensely rewarding,
-        equipping me with strong problem-solving skills and the ability to
-        approach challenges with efficiency. Over the years, I have honed the
-        capacity to quickly learn and adapt to new tools and technologies,
-        ensuring I stay ahead in a fast-evolving digital landscape.
-      </h4>
-    </div>
+        {/* Details */}
+        <div className="w-full details ovo-regular">
+          <div className="intro">
+            <h4 className="p-2 md:p-3 text-lg font-light md:font-semibold leading-relaxed">
+              I am a frontend developer with three years of experience creating
+              clean, user-friendly websites that deliver exceptional
+              experiences. My learning journey, though challenging, has been
+              immensely rewarding, equipping me with strong problem-solving
+              skills and the ability to approach challenges with efficiency.
+              Over the years, I have honed the capacity to quickly learn and
+              adapt to new tools and technologies, ensuring I stay ahead in a
+              fast-evolving digital landscape.
+            </h4>
+          </div>
 
-    {/* Cards */}
-    <div className="w-full details-about grid grid-cols-1 md:grid-cols-2 gap-3 p-0 md:p-4">
-      <div className="card-one p-2 md:p-0">
-        <Card
-          icon={lang}
-          header={"Languages"}
-          text={`Html, Css, JavaScript, ReactJs, NextJs`}
-          readmore={"readmore"}
-          more={`TailwindCss, BootStrap, GSAP, Firebase`}
-        />
+          {/* Cards */}
+          <div className="w-full details-about grid grid-cols-1 md:grid-cols-2 gap-3 p-0 md:p-4">
+            <div className="card-one p-2 md:p-0">
+              <Card
+                icon={lang}
+                header={"Languages"}
+                text={`Html, Css, JavaScript, ReactJs, NextJs`}
+                readmore={"Read more"}
+                hide={"Hide"}
+                more={`TailwindCss, BootStrap, GSAP, Firebase`}
+              />
+            </div>
+
+            <div className="card-two p-2 md:p-0">
+              <Card
+                icon={edu}
+                header={"Education"}
+                text={
+                  "BSc in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria"
+                }
+                readmore={"Read more"}
+                hide={"Hide"}
+                more={"CGPA - 3.54"}
+              />
+            </div>
+
+            <div className="card-three p-2 md:p-0">
+              <Card
+                icon={project}
+                header={"Experience"}
+                text={"One Year Internship"}
+                readmore={"Read more"}
+                hide={"Hide"}
+                more={"Achota Limited, Ebonyi State Nigeria"}
+              />
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div className="card-two p-2 md:p-0">
-        <Card
-          icon={edu}
-          header={"Education"}
-          text={
-            "BSc in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria"
-          }
-          readmore={"readmore"}
-          more={"CGPA - 3.54"}
-        />
-      </div>
-
-      <div className="card-three p-2 md:p-0">
-        <Card
-          icon={project}
-          header={"Experience"}
-          text={"One Year Internship"}
-          readmore={"readmore"}
-          more={"Achota Limited, Ebonyi State Nigeria"}
-        />
-      </div>
-    </div>
-  </div>
-</div>
-
 
       <div className="tools py-0 md:py-10 ovo-regular">
         <div className="intro flex justify-center text-center  p-9">

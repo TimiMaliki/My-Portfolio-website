@@ -52,7 +52,6 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-lg font-medium">+234 906 737 6592</p>
-              <p className="">+234 916 321 8075</p>
             </div>
           </div>
 
@@ -74,7 +73,6 @@ const Contact = () => {
             </div>
             <div>
               <p className="text-lg font-medium">malikitimi@gmail.com</p>
-              <p className="">timilehinmaliki@gmail.com</p>
             </div>
           </div>
         </div>
