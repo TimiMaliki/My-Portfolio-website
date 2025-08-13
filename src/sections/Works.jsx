@@ -74,7 +74,7 @@ const LatestWorks = () => {
 
         <div className="flex justify-center align-middle py-8">
             <Link to="/projects">
-            <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]"} textColor={""} icons={<FaArrowAltCircleRight  className="w-5 h-5 mt-1 "/>} text={"view more"} />
+            <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)]  hover:bg-red-600 hover:text-white transition-all duration-300"} textColor={""} icons={<FaArrowAltCircleRight  className="w-5 h-5 mt-1 "/>} text={"view more"} />
             </Link>
         </div>
       </div>
