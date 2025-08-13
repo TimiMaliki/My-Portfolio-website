@@ -1,7 +1,7 @@
 import {ArrowRightIcon } from "@heroicons/react/24/solid";
 import Buttons from "../component/buttons";
 import myPic from "../img/timi-pictures/timi1.jpeg";
-// import resume from "../resume/Timi.pdf"
+import resume from "../resume/Timi Maliki Resume.pdf"
 import { FaDownload} from "react-icons/fa";
 
 const Hero = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
        <a href="#contact">
        <Buttons color={"bg-black  hover:bg-blue-600 hover:text-white transition-all duration-300"} textColor={"text-white border border-white"} icons={<ArrowRightIcon className="w-5 h-5 mt-1"/>} text={"contact me"}/>
         </a> 
-        <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] hover:bg-red-600 hover:text-white transition-all duration-300"} textColor={""} icons={<FaDownload  className="w-5 h-5 mt-1 "/>} text={"my resume"} doc={""}/>
+        <Buttons color={"border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] hover:bg-red-600 hover:text-white transition-all duration-300"} textColor={""} icons={<FaDownload  className="w-5 h-5 mt-1 "/>} text={"my resume"} doc={resume}/>
       </div>
     </div>
   );
