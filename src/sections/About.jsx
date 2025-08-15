@@ -64,7 +64,7 @@ const AboutMe = () => {
                 icon={edu}
                 header={"Education"}
                 text={
-                  "BSc in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria"
+                  "B.Eng in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria"
                 }
                 readmore={"Read more"}
                 hide={"Hide"}
