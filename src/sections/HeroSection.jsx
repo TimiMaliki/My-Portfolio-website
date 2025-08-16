@@ -1,7 +1,7 @@
 import {ArrowRightIcon } from "@heroicons/react/24/solid";
 import Buttons from "../component/buttons";
 import myPic from "../img/timi-pictures/timi1.jpeg";
-import resume from "../resume/Timi Maliki Resume.pdf"
+import resume from "../resume/Timi Maliki - resume.pdf"
 import { FaDownload} from "react-icons/fa";
 
 const Hero = () => {

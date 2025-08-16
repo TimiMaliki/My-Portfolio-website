@@ -12,7 +12,7 @@ const Navbar = () => {
   const links = [
     { name: "Home", href: "/" },
     { name: "About me", href: "#about" },
-    { name: "Little Achievements", href: "#achievement" },
+    { name: "Achievements", href: "#achievement" },
     { name: "My Work", href: "#work" },
     { name: "Service", href: "#service" },
     { name: "Contact me", href: "#contact" },
