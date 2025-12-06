@@ -1,7 +1,7 @@
 import Card from "../component/card";
 import Header from "../component/Headers";
 
-import profilePicture from "../img/timi-pictures/timi4.jpeg";
+import profilePicture from "../img/timi-pictures/Timi-gym.jpeg";
 import lang from "../img/tool/meeting_15644311.png";
 import edu from "../img/tool/graduated_13305391.png";
 import project from "../img/tool/briefcase_12090562.png";
@@ -52,10 +52,10 @@ const AboutMe = () => {
               <Card
                 icon={lang}
                 header={"Languages"}
-                text={`Html, Css, JavaScript, ReactJs, NextJs`}
+                text={`Html, Css, JavaScript, TypeScript, ReactJs, NextJs`}
                 readmore={"Read more"}
                 hide={"Hide"}
-                more={`TailwindCss, BootStrap, GSAP, Firebase`}
+                more={`React Redux, React Context API,Chakra UI, Material UI, TailwindCss, BootStrap, GSAP, Firebase`}
               />
             </div>
 
