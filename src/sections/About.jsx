@@ -35,7 +35,7 @@ const AboutMe = () => {
         <div className="w-full details ovo-regular">
           <div className="intro">
             <h4 className="p-2 md:p-3 text-lg font-light md:font-semibold leading-relaxed">
-              I am a Frontend Engineer who believes that technical constraints
+             I am a Frontend Engineer who believes that technical constraints
               should never compromise a user’s experience. Whether I’m
               optimizing a Linux-based workflow, integrating Appwrite/Firebase
               backends, or refactoring complex navigation for international
