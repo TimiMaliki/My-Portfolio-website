@@ -35,14 +35,14 @@ const AboutMe = () => {
         <div className="w-full details ovo-regular">
           <div className="intro">
             <h4 className="p-2 md:p-3 text-lg font-light md:font-semibold leading-relaxed">
-              I am a frontend developer with three years of experience creating
-              clean, user-friendly websites that deliver exceptional
-              experiences. My learning journey, though challenging, has been
-              immensely rewarding, equipping me with strong problem-solving
-              skills and the ability to approach challenges with efficiency.
-              Over the years, I have honed the capacity to quickly learn and
-              adapt to new tools and technologies, ensuring I stay ahead in a
-              fast-evolving digital landscape.
+              I am a Frontend Engineer who believes that technical constraints
+              should never compromise a user’s experience. Whether I’m
+              optimizing a Linux-based workflow, integrating Appwrite/Firebase
+              backends, or refactoring complex navigation for international
+              platforms, my goal is seamless functionality. With 5+ years of
+              experience across React and Next.js, I bring a "solutions-first"
+              mindset to every sprint, ensuring that every deployment is as
+              robust as it is visually sophisticated.
             </h4>
           </div>
 
