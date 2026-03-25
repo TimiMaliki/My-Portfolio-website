@@ -23,13 +23,13 @@ const AboutMe = () => {
     >
       <Header intro={"Introduction"} title={"About me"} />
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-0 p-0">
+      <div className="w-full grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-0 p-0">
         {/* Image */}
         <div className="profile-picture flex justify-center items-center mb-2 md:mb-0 p-2 md:p-0">
           <img
             src={profilePicture}
             alt="profilepicture"
-            className="w-full max-w-[350px] h-auto md:h-[450px] md:-mt-[528px] object-cover rounded-xl"
+            className="w-full max-w-[350px] h-auto md:h-[450px] md:-mt-[128px] lg:-mt-[1428px] object-cover rounded-xl"
           />
         </div>
 
