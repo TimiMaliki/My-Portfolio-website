@@ -1,42 +1,49 @@
 import { useState } from "react";
-import { Link} from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 // Html , Css , Others projects
-import food from "../img/projects/food-recipes/Screenshot from 2025-04-23 02-29-56.png"
-import hospital from "../img/projects/hospital/Screenshot from 2024-12-27 21-52-57.png"
-import  van from "../img/display-works/van.png"
-import vid from "../img/projects/vid-call/Screenshot from 2025-04-23 02-22-29.png"
-import skin from "../img/projects/skin-care/Screenshot from 2025-04-23 02-33-04.png"
-import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-13-29.png"
-import tasty from "../img/projects/food/Screenshot from 2025-07-25 20-00-47.png"
-import music from "../img/projects/music/Screenshot from 2025-07-25 20-06-48.png"
-
+import food from "../img/projects/food-recipes/Screenshot from 2025-04-23 02-29-56.png";
+import hospital from "../img/projects/hospital/Screenshot from 2024-12-27 21-52-57.png";
+import van from "../img/display-works/van.png";
+import vid from "../img/projects/vid-call/Screenshot from 2025-04-23 02-22-29.png";
+import skin from "../img/projects/skin-care/Screenshot from 2025-04-23 02-33-04.png";
+import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-13-29.png";
+import tasty from "../img/projects/food/Screenshot from 2025-07-25 20-00-47.png";
+import music from "../img/projects/music/Screenshot from 2025-07-25 20-06-48.png";
 
 // React projects
-import light from "../img/projects/light/2.png"
-import dance from "../img/projects/dance-blog/Screenshot from 2025-04-23 02-37-35.png"
-import woof from "../img/projects/woof/1.png"
-import bright from "../img/projects/brightburn/Screenshot from 2025-07-25 17-19-48.png"
-import test from "../img/projects/knowledge/5.png"
+import light from "../img/projects/light/2.png";
+import dance from "../img/projects/dance-blog/Screenshot from 2025-04-23 02-37-35.png";
+import woof from "../img/projects/woof/1.png";
+import bright from "../img/projects/brightburn/Screenshot from 2025-07-25 17-19-48.png";
+import test from "../img/projects/knowledge/5.png";
 
 //Next projects
-import vento from "../img/projects/vento/Screenshot from 2025-07-27 03-36-06.png"
+import vento from "../img/projects/vento/Screenshot from 2025-07-27 03-36-06.png";
 
 // javaScript projects
-import CountryAPI from "../img/projects/JavaScript/js1.png"
-import CurrencyAPI from "../img/projects/JavaScript/js2.png"
-import JokeAPI from "../img/projects/JavaScript/js3.png"
-import Dwords from "../img/projects/JavaScript/js4.png"
-import todo from "../img/projects/JavaScript/js5.png"
-import bg from "../img/projects/JavaScript/js6.png"
-import clock from "../img/projects/JavaScript/js7.png"
-import modal from "../img/projects/JavaScript/js8.png"
-import cart from "../img/projects/JavaScript/js9.png"
-import age from "../img/projects/JavaScript/js10.png"
-import rem from "../img/projects/JavaScript/js11.png"
+import CountryAPI from "../img/projects/JavaScript/js1.png";
+import CurrencyAPI from "../img/projects/JavaScript/js2.png";
+import JokeAPI from "../img/projects/JavaScript/js3.png";
+import Dwords from "../img/projects/JavaScript/js4.png";
+import todo from "../img/projects/JavaScript/js5.png";
+import bg from "../img/projects/JavaScript/js6.png";
+import clock from "../img/projects/JavaScript/js7.png";
+import modal from "../img/projects/JavaScript/js8.png";
+import cart from "../img/projects/JavaScript/js9.png";
+import age from "../img/projects/JavaScript/js10.png";
+import rem from "../img/projects/JavaScript/js11.png";
+import caped from "../img/projects/Caped/caped2.png";
 
 const projectsData = [
+  {
+    title: "Caped",
+    description: `E-commerce Web Application.`,
+    image: caped,
+    tags: ["NextJS", "TypeScript", "TailwindCss"],
+    year: "2023",
+    link: "https://caped-stores.vercel.app/",
+  },
   {
     id: 1,
     title: "LightRun",
@@ -44,7 +51,7 @@ const projectsData = [
     image: light,
     category: "ReactJs",
     tags: ["ReactJs", "TailwindCss"],
-    link : "https://lightrun.vercel.app"
+    link: "https://lightrun.vercel.app",
   },
   {
     id: 2,
@@ -52,8 +59,8 @@ const projectsData = [
     description: "A Food Recipe API.",
     image: food,
     category: "Bootstrap",
-    tags: ["Html", "Css" , "Bootstrap"],
-    link : "https://food-recipe-api-landingpage.vercel.app/"
+    tags: ["Html", "Css", "Bootstrap"],
+    link: "https://food-recipe-api-landingpage.vercel.app/",
   },
   {
     id: 3,
@@ -61,8 +68,8 @@ const projectsData = [
     description: "A Dental Hospital minimal , clean landing page.",
     image: hospital,
     category: "Bootstrap",
-    tags: ["Html", "Css" , "Bootstrap"],
-    link : "https://dental-clinic-landing-page-ten.vercel.app/"
+    tags: ["Html", "Css", "Bootstrap"],
+    link: "https://dental-clinic-landing-page-ten.vercel.app/",
   },
   {
     id: 4,
@@ -71,7 +78,7 @@ const projectsData = [
     image: bright,
     category: "ReactJs",
     tags: ["Reactjs", "Tailwindcss", "Swiper Js"],
-    link : "https://brightburn.vercel.app/"
+    link: "https://brightburn.vercel.app/",
   },
   {
     id: 5,
@@ -80,7 +87,7 @@ const projectsData = [
     image: woof,
     category: "ReactJs",
     tags: ["Reactjs", "Tailwindcss", "Dog API"],
-    link : "https://woofipedia.vercel.app"
+    link: "https://woofipedia.vercel.app",
   },
   {
     id: 6,
@@ -89,7 +96,7 @@ const projectsData = [
     image: vid,
     category: "Bootstrap",
     tags: ["Html", "Css", "Bootstrap"],
-    link : "https://video-chat-landing-page.vercel.app/"
+    link: "https://video-chat-landing-page.vercel.app/",
   },
   {
     id: 7,
@@ -98,7 +105,7 @@ const projectsData = [
     image: test,
     category: "ReactJs",
     tags: ["ReactJs", "TailwindCss"],
-    link : "https://knowledgeidk.vercel.app/ "
+    link: "https://knowledgeidk.vercel.app/ ",
   },
   {
     id: 8,
@@ -107,7 +114,7 @@ const projectsData = [
     image: skin,
     category: "GSAP",
     tags: ["Html", "Css", "GSAP"],
-    link : "https://product-landingpage-gsap.vercel.app/"
+    link: "https://product-landingpage-gsap.vercel.app/",
   },
   {
     id: 9,
@@ -116,7 +123,7 @@ const projectsData = [
     image: women,
     category: "TailwindCss",
     tags: ["Html", "Css", "TailwindCss"],
-    link : "https://maliki-fashion-ecommerce.vercel.app/"
+    link: "https://maliki-fashion-ecommerce.vercel.app/",
   },
   {
     id: 10,
@@ -125,17 +132,16 @@ const projectsData = [
     image: van,
     category: "Wixx",
     tags: ["Wixx"],
-    link : "https://www.vanmarjoli.be/"
-    
+    link: "https://www.vanmarjoli.be/",
   },
   {
     id: 11,
     title: "Dance Blog",
     description: "A Creative Blogger site.",
     image: dance,
-    category:"ReactJs",
+    category: "ReactJs",
     tags: ["ReactJs", "Tailwind"],
-    link : "https://maliki-dance-blog-2024.vercel.app/"
+    link: "https://maliki-dance-blog-2024.vercel.app/",
   },
 
   {
@@ -143,9 +149,9 @@ const projectsData = [
     title: "Countries Info API",
     description: "Konw more about a specific country.",
     image: CountryAPI,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://country-guide-api-js.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://country-guide-api-js.vercel.app/",
   },
 
   {
@@ -153,18 +159,18 @@ const projectsData = [
     title: "Currency Converter API",
     description: "convert your currency to any country.",
     image: CurrencyAPI,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://currency-converter-api-js.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://currency-converter-api-js.vercel.app/",
   },
   {
     id: 14,
     title: "Joke API",
     description: "A Generated Joke API.",
     image: JokeAPI,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://meme-api-app.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://meme-api-app.vercel.app/",
   },
 
   {
@@ -172,101 +178,100 @@ const projectsData = [
     title: "Dictionary API",
     description: "A Generated Joke API.",
     image: Dwords,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://dictionary-api-js.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://dictionary-api-js.vercel.app/",
   },
   {
     id: 16,
     title: "Todo App",
     description: "A task list App.",
     image: todo,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://todo-app-javascript-2024.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://todo-app-javascript-2024.vercel.app/",
   },
   {
     id: 17,
     title: "Background changer",
     description: "A simple background changer.",
     image: bg,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://background-color-generator-javascript-2024.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://background-color-generator-javascript-2024.vercel.app/",
   },
   {
     id: 18,
     title: "A Clock App",
     description: "A simple 24 hours switch clock.",
     image: clock,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://clock-app-delta-two.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://clock-app-delta-two.vercel.app/",
   },
   {
     id: 19,
     title: "A Simple Modal App",
     description: "A Simple Modal App.",
     image: modal,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://modal-window-java-script.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://modal-window-java-script.vercel.app/",
   },
   {
     id: 20,
     title: "Product Cart",
     description: "Art Merch product.",
     image: cart,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://art-merch-shopping-cart-js.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://art-merch-shopping-cart-js.vercel.app/",
   },
   {
     id: 21,
     title: "Tasty Food",
     description: "Food that makes you salivate.",
     image: tasty,
-    category:"Html and Css",
-    tags: ["Html", "Css","JavaScript"],
-    link : "http://food-beige-psi.vercel.app/"
+    category: "Html and Css",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "http://food-beige-psi.vercel.app/",
   },
   {
     id: 22,
     title: "Beats 3",
     description: "Food for the soul.",
     image: music,
-    category:"Html and Css",
-    tags: ["Html", "Css","JavaScript"],
-    link : "http://music-nu-three.vercel.app/"
+    category: "Html and Css",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "http://music-nu-three.vercel.app/",
   },
   {
     id: 23,
     title: "Age Calculator",
     description: "Calculate your age.",
     image: age,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://age-calculator-ten.vercel.app/"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://age-calculator-ten.vercel.app/",
   },
   {
     id: 24,
     title: "A Rem to Px converter",
     description: "Convert your Rem values to Px",
     image: rem,
-    category:"JavaScript",
-    tags: ["Html", "Css","JavaScript"],
-    link : "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter"
+    category: "JavaScript",
+    tags: ["Html", "Css", "JavaScript"],
+    link: "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter",
   },
   {
     id: 25,
     title: "Vento Furnitures",
     description: "Modern Furnitures",
     image: vento,
-    category:"Nextjs",
+    category: "Nextjs",
     tags: ["Nextjs", "Tailwindcss"],
-    link : "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter"
+    link: "https://github.com/TimiMaliki/20-javaScript-Projects/tree/master/FrontEnd-portfolio/JavaScript/20)%20REM-PX-Converter",
   },
-  
 ];
 
 // Filter options
@@ -296,13 +301,18 @@ const Projects = () => {
   // Pagination logic
   const totalPages = Math.ceil(filteredProjects.length / itemsPerPage);
   const startIdx = (currentPage - 1) * itemsPerPage;
-  const currentProjects = filteredProjects.slice(startIdx, startIdx + itemsPerPage);
+  const currentProjects = filteredProjects.slice(
+    startIdx,
+    startIdx + itemsPerPage,
+  );
 
   return (
     <section id="projects" className="py-8  px-4 roboto">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl roboto mt-10 mb-4">Passion Projects</h2>
-        <p className="text-lg mb-12 roboto">A glimpse into the work I’m proud of</p>
+        <p className="text-lg mb-12 roboto">
+          A glimpse into the work I’m proud of
+        </p>
 
         {/* Filters */}
         <div className="flex flex-wrap justify-center gap-3 mb-12">
@@ -325,52 +335,51 @@ const Projects = () => {
         </div>
 
         {/* Project Grid */}
-      
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
           {currentProjects.map((project) => (
-              <Link  to={`${project.link}`}>
-                   <div
-              key={project.id}
-              className="group relative  border border-gray-100 dark:border-slate-700 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
-            >
-              <div className="overflow-hidden h-56">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-              </div>
-
-              <div className="p-6 space-y-3">
-                <span className="text-xs uppercase tracking-wider">
-                  {project.category}
-                </span>
-                <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-sm">{project.description}</p>
-
-                <div className="flex flex-wrap gap-2 mt-3">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-md px-2 py-1  bg-slate-300  rounded-full"
-                    >
-                      {tag}
-                    </span>
-                  ))}
+            <Link to={`${project.link}`}>
+              <div
+                key={project.id}
+                className="group relative  border border-gray-100 dark:border-slate-700 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
+              >
+                <div className="overflow-hidden h-56">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
 
-                <Link
-                  to={`${project.link}`}
-                  className="mt-4 inline-flex items-center text-sm font-medium text-blue-600 hover:underline"
-                >
-                  View Case Study →
-                </Link>
+                <div className="p-6 space-y-3">
+                  <span className="text-xs uppercase tracking-wider">
+                    {project.category}
+                  </span>
+                  <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors">
+                    {project.title}
+                  </h3>
+                  <p className="text-sm">{project.description}</p>
+
+                  <div className="flex flex-wrap gap-2 mt-3">
+                    {project.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-md px-2 py-1  bg-slate-300  rounded-full"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  <Link
+                    to={`${project.link}`}
+                    className="mt-4 inline-flex items-center text-sm font-medium text-blue-600 hover:underline"
+                  >
+                    View Case Study →
+                  </Link>
+                </div>
               </div>
-            </div>
-              </Link>
-           
+            </Link>
           ))}
         </div>
 
@@ -385,7 +394,7 @@ const Projects = () => {
                   ? "bg-blue-600 shadow"
                   : " hover:bg-purple-50 border border-gray-200"
               }`}
-            >   
+            >
               {page}
             </button>
           ))}
