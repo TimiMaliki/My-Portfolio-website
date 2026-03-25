@@ -1,13 +1,11 @@
 import { useState } from "react";
 
-const Card = ({
+const BackgroundCard = ({
   icon,
   header,
+education,
+background,
   text,
-  coreSkill,
-  frameworks,
-  styling,
-  backend,
   more,
   readmore,
   hide,
@@ -23,21 +21,16 @@ const Card = ({
         {header}
       </div>
       <div className="text p-10 oboto">
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center  mb-4">
-          {coreSkill}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
-          {frameworks}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
-          {styling}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
-          {backend}
-        </p>
         <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
           {text}
-        </p> 
+        </p>
+        <p className="text-md md:text-lg flex md:flex justify-center md:justify-center  font-normal align-middle text-center mb-2 underline">
+          {background}
+        </p>
+        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center">
+          {education}
+        </p>
+     
         {readMore && (
           <div className="w-full rounded-lg text-md md:text-lg flex  text-center align-middle justify-center bg-blue-500 p-2 text-white">
             {more}
@@ -66,4 +59,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default BackgroundCard;

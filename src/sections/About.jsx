@@ -12,11 +12,12 @@ import gitLight from "../img/tool/gitLight.png";
 import stackLight from "../img/tool/stackIcon.png";
 import wordprss from "../img/tool/wordpress_14063231.png";
 import wix from "../img/tool/wix_5968753.png";
+import BackgroundCard from "../component/EducationCard";
 
 const AboutMe = () => {
   return (
     <div
-      className="max-w-7xl grid place-content-center mx-auto w-full py-20  ovo-regular"
+      className="grid place-content-center w-full py-20  ovo-regular"
       id="about"
     >
       <Header intro={"Introduction"} title={"About me"} />
@@ -34,10 +35,10 @@ const AboutMe = () => {
         {/* Details */}
         <div className="w-full details ovo-regular">
           <div className="intro">
-            <h4 className="p-2 roboto md:p-3 text-lg font-light">
-              I’m Timi Maliki, though in the dev world, I go by Vermillion. Named
-              after the fiery strategist from Black Clover, I bring that same
-              intensity to every line of code. I’m a Computer Engineer by
+            <h4 className="p-10 roboto md:p-3 text-lg font-light">
+              I’m Timi Maliki, though in the dev world, I go by Vermillion.
+              Named after the fiery strategist from Black Clover, I bring that
+              same intensity to every line of code. I’m a Computer Engineer by
               training and a Frontend Architect by choice. I specialize in
               bridging the gap between low-level analytical depth and high-level
               artistic realism.
@@ -45,25 +46,35 @@ const AboutMe = () => {
           </div>
 
           {/* Cards */}
-          <div className="w-full details-about grid grid-cols-1 md:grid-cols-2 gap-3 p-0 md:p-4">
-            <div className="card-one p-2 md:p-0">
+          <div className="w-full md:w-full details-about grid grid-cols-1 md:grid-cols-2 gap-3 p-0 md:p-4">
+            <div className="card-one p-0 md:p-2">
               <Card
                 icon={lang}
                 header={"Languages"}
-                text={`Html, Css, JavaScript, TypeScript, ReactJs, NextJs`}
+                coreSkill={
+                  "Languages/Core: JavaScript (ES6+), TypeScript, HTML5, CSS3."
+                }
+                frameworks={
+                  "Frameworks/Libraries: React.js, Next.js, Redux Toolkit, Context API, GSAP (Animations)."
+                }
+                styling={`Styling: Tailwind CSS, Material UI, Chakra UI, Bootstrap. `}
+                backend={`Backend: Firebase (Firestore/Auth), Appwrite(Database/Storage/Auth), REST APIs.`}
+                text={`Platform: Linux, Git, GitHub, Vercel, VS Code.`}
                 readmore={"Read more"}
                 hide={"Hide"}
-                more={`React Redux, React Context API,Chakra UI, Material UI, TailwindCss, BootStrap, GSAP, Firebase`}
+                more={`Tools: Figma, WordPress, WIx.`}
               />
             </div>
 
-            <div className="card-two p-2 md:p-0">
-              <Card
+            <div className="card-two p-0 md:p-2">
+              <BackgroundCard
                 icon={edu}
                 header={"Education"}
-                text={
-                  "B.Eng in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria"
-                }
+                text={`B.Eng in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria.`}
+                background={"The Intersection of Logic & Design."}
+                education={`Engineering is about more than equations; it is the architecture of digital spaces. With a degree in Computer Engineering, I bridge the gap between Hardware and Software, bringing a holistic understanding of how physical systems and digital logic converge.
+From low-level memory efficiency to high-level cloud orchestration, my background ensures every platform is optimized for performance, security, and scale. I don't just build functional websites—I engineer brand experiences. By merging disciplined logic with sophisticated UI/UX, 
+I transform abstract concepts into high-performance digital products that are as visually compelling as they are technically sound.`}
                 readmore={"Read more"}
                 hide={"Hide"}
                 more={"CGPA - 3.54"}
