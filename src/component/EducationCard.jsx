@@ -27,7 +27,7 @@ background,
         <p className="text-md md:text-lg flex md:flex justify-center md:justify-center  font-normal align-middle text-center mb-2 underline">
           {background}
         </p>
-        <p className="text-md w-full md:w-full lg:w-[350px] md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center">
+        <p className="text-md w-full md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center">
           {education}
         </p>
      

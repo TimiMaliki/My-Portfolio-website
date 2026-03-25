@@ -23,19 +23,19 @@ const Card = ({
         {header}
       </div>
       <div className="text p-10 roboto">
-        <p className="text-md w-full md:w-full lg:w-[350px] md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center  mb-4">
+        <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center  mb-4">
           {coreSkill}
         </p>
-        <p className="text-md w-full md:w-full lg:w-[350px] md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
+        <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
           {frameworks}
         </p>
-        <p className="text-md w-full md:w-full lg:w-[350px] md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
+        <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
           {styling}
         </p>
-        <p className="text-md w-full md:w-full lg:w-[350px] md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
+        <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
           {backend}
         </p>
-        <p className="text-md w-full md:w-full lg:w-[350px] md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
+        <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
           {text}
         </p> 
         {readMore && (
