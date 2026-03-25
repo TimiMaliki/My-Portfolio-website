@@ -14,7 +14,7 @@ const Navbar = () => {
     { name: "About me", href: "#about" },
     { name: "Achievements", href: "#achievement" },
     { name: "My Work", href: "#work" },
-    { name: "Service", href: "#service" },
+    // { name: "Service", href: "#service" },
     { name: "Contact me", href: "#contact" },
   ];
 
@@ -49,13 +49,13 @@ const Navbar = () => {
 
         {/* my name */}
         <Link to={"/"}>
-        <div className={`brand text-lg md:text-2xl ovo-regular font-light md:font-semibold hover:text-blue-700  transition-all duration-300${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
+        <div className={`brand text-lg md:text-2xl roboto font-light md:font-semibold hover:text-blue-700  transition-all duration-300${darkMode ? "hover:text-blue-700 transition-all duration-300" : ""} cursor-pointer`}>
           {brandName}
         </div>
         </Link>
        
         {/* ------------------Nav Links -------------------*/}
-        <div className="hidden md:flex ovo-regular justify-center space-x-8 border border-slate-50 px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
+        <div className="hidden md:flex  roboto justify-center space-x-8 border border-slate-50 px-7 p-4 rounded-full shadow-[0px_1px_4px_rgba(0,0,0,0.16)]">
           {links.map((nav, index) => (
             <a
               href={nav.href}
@@ -107,7 +107,7 @@ const Navbar = () => {
             <a
               href={nav.href}
               key={index}
-              className="text-md font-light md:font-medium  hover:text-blue-900 transition-all duration-300"
+              className="text-md roboto  md:font-medium  hover:text-blue-900 transition-all duration-300"
             >
               {nav.name}
             </a>

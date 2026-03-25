@@ -2,10 +2,10 @@ const Header = ({intro , title}) => {
     return ( 
         <div>
               <div className="intro mb-5 md:mb-8">
-        <h4 className="text-md md:text-lg font-bold flex justify-center text-center ovo-regular mb-3">
+        <h4 className="text-md md:text-lg roboto flex justify-center text-center ovo-regular mb-3">
         {intro}
         </h4>
-        <h2 className="text-center text-xl md:text-4xl font-medium">{title}</h2>
+        <h2 className="text-center text-xl md:text-4xl  roboto">{title}</h2>
       </div>
         </div>
      );

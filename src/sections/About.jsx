@@ -34,15 +34,13 @@ const AboutMe = () => {
         {/* Details */}
         <div className="w-full details ovo-regular">
           <div className="intro">
-            <h4 className="p-2 md:p-3 text-lg font-light md:font-semibold leading-relaxed">
-             I am a Frontend Engineer who believes that technical constraints
-              should never compromise a user’s experience. Whether I’m
-              optimizing a Linux-based workflow, integrating Appwrite/Firebase
-              backends, or refactoring complex navigation for international
-              platforms, my goal is seamless functionality. With 5+ years of
-              experience across React and Next.js, I bring a "solutions-first"
-              mindset to every sprint, ensuring that every deployment is as
-              robust as it is visually sophisticated.
+            <h4 className="p-2 roboto md:p-3 text-lg font-light">
+              I’m Timi Maliki, though in the dev world, I go by Vermillion. Named
+              after the fiery strategist from Black Clover, I bring that same
+              intensity to every line of code. I’m a Computer Engineer by
+              training and a Frontend Architect by choice. I specialize in
+              bridging the gap between low-level analytical depth and high-level
+              artistic realism.
             </h4>
           </div>
 

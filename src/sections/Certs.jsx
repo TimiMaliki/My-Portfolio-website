@@ -28,14 +28,14 @@ const Achievement = () => {
           {/* <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-300 to-pink-300 -ml-px"></div> */}
 
           {/* Achievement One */}
-          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32">
+          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32 roboto">
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
                   <div className="bg-purple-100 text-purple-600 font-bold rounded-full p-5 w-12 h-12 flex items-center justify-center align-items mr-4">
                     1
                   </div>
-                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
+                  <h3 className="text-xl md:text-2xl roboto">
                     FreeCodeCamp - Responsive Web Design 2022
                   </h3>
                 </div>
@@ -150,14 +150,14 @@ const Achievement = () => {
           </div>
 
           {/* Achievement Two */}
-          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32">
+          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32 roboto">
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-2">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
                   <div className="bg-blue-100 text-blue-600 font-bold p-5 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     2
                   </div>
-                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
+                  <h3 className="text-xl md:text-2xl roboto">
                     FreeCodeCamp - JavaScript Algorithms and Data Structures
                     2024
                   </h3>
@@ -256,14 +256,14 @@ const Achievement = () => {
           </div>
 
           {/* Achievement Three */}
-          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32">
+          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32 roboto">
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
                   <div className="bg-pink-100 text-pink-600 font-bold p-5 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     3
                   </div>
-                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
+                  <h3 className="text-xl md:text-2xl roboto">
                     Udemy - Dora Master Course 2024
                   </h3>
                 </div>
@@ -320,14 +320,14 @@ const Achievement = () => {
           </div>
 
           {/* Achievement Four */}
-          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32">
+          <div className="flex flex-col lg:flex-row items-center mb-24 lg:mb-32 roboto">
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-2">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4">
                   <div className="bg-yellow-100 text-yellow-600 font-bold  p-5 rounded-full w-12 h-12 flex items-center justify-center mr-4">
                     4
                   </div>
-                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
+                  <h3 className="text-xl md:text-2xl roboto">
                     Udemy - Web JavaScript Animations with GreenSock 2025
                   </h3>
                 </div>
@@ -414,14 +414,14 @@ const Achievement = () => {
           </div>
 
           {/* Achievement Five */}
-          <div className="flex flex-col lg:flex-row items-center">
+          <div className="flex flex-col lg:flex-row items-center roboto">
             <div className="lg:w-1/2 lg:pr-16 mb-8 lg:mb-0 order-1 lg:order-1">
               <div className=" p-8 rounded-2xl shadow-xl border border-gray-100">
                 <div className="flex items-center mb-4 flex-shrink-0 flex-grow-0">
                   <div className="bg-green-100 text-green-600 p-5 font-bold rounded-full w-12 h-12 flex items-center justify-center mr-4 flex-shrink-0 flex-grow-0">
                     5
                   </div>
-                  <h3 className="text-xl md:text-2xl font-normal md:font-bold">
+                  <h3 className="text-xl md:text-2xl roboto">
                     ADPList - Community Achievement
                   </h3>
                 </div>
