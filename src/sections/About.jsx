@@ -73,7 +73,7 @@ const AboutMe = () => {
                 text={`B.Eng in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria.`}
                 background={"The Intersection of Logic & Design."}
                 education={`Engineering is about more than equations; it is the architecture of digital spaces. With a degree in Computer Engineering, I bridge the gap between Hardware and Software, bringing a holistic understanding of how physical systems and digital logic converge.
-From low-level memory efficiency to high-level cloud orchestration, my background ensures every platform is optimized for performance, security, and scale. I don't just build functional websites—I engineer brand experiences. By merging disciplined logic with sophisticated UI/UX, 
+From low-level memory efficiency to high-level cloud orchestration, my background ensures every platform is optimized for performance, security, and scale. I don't just build functional websites,I engineer brand experiences. By merging disciplined logic with sophisticated UI/UX, 
 I transform abstract concepts into high-performance digital products that are as visually compelling as they are technically sound.`}
                 readmore={"Read more"}
                 hide={"Hide"}
