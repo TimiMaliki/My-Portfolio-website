@@ -9,6 +9,14 @@ import light from "../img/projects/light/41.png"
 const LatestWorks = () => {
   const projects = [
     {
+      title: "Caped – E-commerce Web Application ",
+      description:`Experience the future of retail through a fluid, secure, and hyper-responsive interface designed to put the user first. We’ve stripped away the friction of traditional e-commerce to create a beautifully synced shopping environment that works everywhere you do.`,
+      image:hospital,
+      tags: ["Html", "Css", "Bootstrap"],
+      year: "2023",
+      link: "/projects/jobbazar",
+    },
+    {
       title: "Dental Hospital landing page",
       description:`a modern dental hospital dedicated to providing exceptional oral care in a comfortable and patient-centered environment.`,
       image:hospital,
@@ -37,11 +45,11 @@ const LatestWorks = () => {
 
   return (
     <section className="py-20 ovo-regular" id="work">
-      <div className="w-full max-w-7xl mx-auto px-6">
+      <div className="w-full max-w-7xl mx-auto px-1">
         {/* Header */}
         <Header intro={"Portfolio showcase"} title={"My Work"} id=""/>
         {/* Projects Grid */}
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-2 md:grid-cols-2 lg:grid-cols-2">
           {projects.map((project, index) => (
             <div
               key={index}
