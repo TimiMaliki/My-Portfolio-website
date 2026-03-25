@@ -8,15 +8,15 @@ const Footer = () => {
           </div>
   
           {/* Navigation Links */}
-          <div className="">
+          <div className="text-center">
             <h3 className="text-md md:text-xl font-light md:font-semibold mb-4">Navigation</h3>
-            <ul className="space-y-2 text-md md:text-lg">
+              <ul className="space-y-2 text-md md:text-lg grid grid-cols-3">
               <li><a href="/" className="hover:underline">Home</a></li>
-              <li><a href="#about" className="hover:underline" >About me</a></li>
-              <li><a href="#achievement" className="hover:underline" id="achievement">Little Achievements</a></li>
-              <li><a href="#work" className="hover:underline">My Works</a></li>
-              <li><a href="#service" className="hover:underline">Services</a></li>
-              <li><a href="#contact" className="hover:underline">Contact</a></li>
+              <li><a href="/" className="hover:underline" >About me</a></li>
+              <li><a href="/" className="hover:underline" id="achievement">Little Achievements</a></li>
+              <li><a href="/" className="hover:underline">My Works</a></li>
+              <li><a href="/" className="hover:underline">Services</a></li>
+              <li><a href="/" className="hover:underline">Contact</a></li>
             </ul>
           </div>
   
