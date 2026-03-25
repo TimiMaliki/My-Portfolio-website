@@ -316,7 +316,7 @@ const Projects = () => {
         </p>
 
         {/* Filters */}
-        <div className="flex flex-wrap justify-center gap-3 mb-12">
+        <div className="flex flex-wrap justify-center gap-3 mb-12 roboto">
           {filters.map((filter) => (
             <button
               key={filter.id}
@@ -324,7 +324,7 @@ const Projects = () => {
                 setActiveFilter(filter.id);
                 setCurrentPage(1);
               }}
-              className={`px-5 py-2 rounded-full text-sm font-medium border transition-all duration-300 ${
+              className={`px-5 py-2 rounded-full text-sm font-medium border transition-all duration-300 roboto ${
                 activeFilter === filter.id
                   ? "bg-white text-blue-600 border-blue-500 shadow-sm"
                   : "bg-gray-50 text-black border-gray-200 hover:border-blue-300"
@@ -337,7 +337,7 @@ const Projects = () => {
 
         {/* Project Grid */}
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer roboto">
           {currentProjects.map((project) => (
             <Link to={`${project.link}`}>
               <div
@@ -353,15 +353,15 @@ const Projects = () => {
                 </div>
 
                 <div className="p-6 space-y-3">
-                  <span className="text-xs uppercase tracking-wider">
+                  <span className="text-xs uppercase tracking-wider roboto">
                     {project.category}
                   </span>
-                  <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg font-bold  group-hover:text-blue-600 transition-colors roboto">
                     {project.title}
                   </h3>
-                  <p className="text-sm">{project.description}</p>
+                  <p className="text-sm roboto">{project.description}</p>
 
-                  <div className="flex flex-wrap gap-2 mt-3">
+                  <div className="flex flex-wrap gap-2 mt-3 roboto">
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
@@ -374,7 +374,7 @@ const Projects = () => {
 
                   <Link
                     to={`${project.link}`}
-                    className="mt-4 inline-flex items-center text-sm font-medium text-blue-600 hover:underline"
+                    className="mt-4 inline-flex items-center text-sm font-medium text-blue-600 hover:underline roboto"
                   >
                     View Case Study →
                   </Link>
@@ -385,12 +385,12 @@ const Projects = () => {
         </div>
 
         {/* Pagination */}
-        <nav className="flex items-center justify-center space-x-1 mt-14">
+        <nav className="flex items-center justify-center space-x-1 mt-14 roboto">
           {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
             <button
               key={page}
               onClick={() => setCurrentPage(page)}
-              className={`w-10 h-10  p-2 rounded-full flex items-center justify-center font-medium text-sm transition-colors ${
+              className={`w-10 h-10  p-2 rounded-full flex items-center justify-center font-medium text-sm transition-colors roboto ${
                 currentPage === page
                   ? "bg-blue-600 shadow"
                   : " hover:bg-purple-50 border border-gray-200"
