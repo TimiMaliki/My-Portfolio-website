@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-const Card = ({
+const ExperienceCard = ({
   icon,
   header,
+  titleOne,
+  titleTwo,
+  ExperinceOne,
+  ExperinceTwo,
   text,
-  coreSkill,
-  frameworks,
-  styling,
-  backend,
   more,
   readmore,
   hide,
@@ -15,7 +15,7 @@ const Card = ({
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <div className="w-full md:w-full rounded-xl border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] ovo-regular">
+    <div className="w-full md:w-full rounded-xl border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] roboto">
       <div className="icon flex justify-center md:flex md:text-start p-9">
         <img src={icon} alt="icons" className="w-14 h-14" />
       </div>
@@ -23,21 +23,22 @@ const Card = ({
         {header}
       </div>
       <div className="text p-10 roboto">
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center  mb-4">
-          {coreSkill}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
-          {frameworks}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
-          {styling}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
-          {backend}
-        </p>
-        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
+        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-2">
           {text}
-        </p> 
+        </p>
+        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-2 underline">
+          {titleOne}
+        </p>
+        <p className="text-md md:text-lg flex md:flex justify-center md:justify-center  font-normal align-middle text-center mb-5">
+          {ExperinceOne}
+        </p>
+        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-2 underline">
+          {titleTwo}
+        </p>
+        <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center">
+          {ExperinceTwo}
+        </p>
+
         {readMore && (
           <div className="w-full rounded-lg text-md md:text-lg flex  text-center align-middle justify-center bg-white p-2 text-black">
             {more}
@@ -66,4 +67,4 @@ const Card = ({
   );
 };
 
-export default Card;
+export default ExperienceCard;

@@ -13,14 +13,14 @@ background,
   const [readMore, setReadMore] = useState(false);
 
   return (
-    <div className="w-full md:w-full rounded-xl border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] ovo-regular">
+    <div className="w-full md:w-full rounded-xl border shadow-[1.95px_1.95px_2.6px_rgba(0,0,0,0.15)] roboto">
       <div className="icon flex justify-center md:flex md:text-start p-9">
         <img src={icon} alt="icons" className="w-14 h-14" />
       </div>
       <div className="header flex roboto justify-center md:flex md:text-start text-md  md:text-lg font-light md:font-semibold">
         {header}
       </div>
-      <div className="text p-10 oboto">
+      <div className="text p-10 roboto">
         <p className="text-md md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
           {text}
         </p>
@@ -32,7 +32,7 @@ background,
         </p>
      
         {readMore && (
-          <div className="w-full rounded-lg text-md md:text-lg flex  text-center align-middle justify-center bg-blue-500 p-2 text-white">
+          <div className="w-full rounded-lg text-md md:text-lg flex  text-center align-middle justify-center bg-white p-2 text-black">
             {more}
           </div>
         )}

@@ -13,6 +13,7 @@ import stackLight from "../img/tool/stackIcon.png";
 import wordprss from "../img/tool/wordpress_14063231.png";
 import wix from "../img/tool/wix_5968753.png";
 import BackgroundCard from "../component/EducationCard";
+import ExperienceCard from "../component/ExperienceCard";
 
 const AboutMe = () => {
   return (
@@ -47,7 +48,7 @@ const AboutMe = () => {
 
           {/* Cards */}
           <div className="w-full md:w-full details-about grid grid-cols-1 md:grid-cols-2 gap-3 p-0 md:p-4">
-            <div className="card-one p-0 md:p-2">
+            <div className="card-one p-2 md:p-2">
               <Card
                 icon={lang}
                 header={"Languages"}
@@ -66,15 +67,15 @@ const AboutMe = () => {
               />
             </div>
 
-            <div className="card-two p-0 md:p-2">
+            <div className="card-two p-2 md:p-2">
               <BackgroundCard
                 icon={edu}
                 header={"Education"}
                 text={`B.Eng in Computer Engineering Michael Okpara University of Agriculture Umudike, Nigeria.`}
                 background={"The Intersection of Logic & Design."}
                 education={`Engineering is about more than equations; it is the architecture of digital spaces. With a degree in Computer Engineering, I bridge the gap between Hardware and Software, bringing a holistic understanding of how physical systems and digital logic converge.
-From low-level memory efficiency to high-level cloud orchestration, my background ensures every platform is optimized for performance, security, and scale. I don't just build functional websites,I engineer brand experiences. By merging disciplined logic with sophisticated UI/UX, 
-I transform abstract concepts into high-performance digital products that are as visually compelling as they are technically sound.`}
+                 From low-level memory efficiency to high-level cloud orchestration, my background ensures every platform is optimized for performance, security, and scale. I don't just build functional websites,I engineer brand experiences. By merging disciplined logic with sophisticated UI/UX, 
+                 I transform abstract concepts into high-performance digital products that are as visually compelling as they are technically sound.`}
                 readmore={"Read more"}
                 hide={"Hide"}
                 more={"CGPA - 3.54"}
@@ -82,13 +83,18 @@ I transform abstract concepts into high-performance digital products that are as
             </div>
 
             <div className="card-three p-2 md:p-0">
-              <Card
+              <ExperienceCard
                 icon={project}
                 header={"Experience"}
-                text={"One Year Internship"}
+                titleOne={
+                  "Frontend Engineering (Volunteer) — London Jewish Forum"
+                }
+                ExperinceOne={`
+Since early 2026, I have led the frontend evolution for a major UK community organization, specifically focusing on data-driven tools for the London Local Elections. I developed a specialized Pledge Tracker featuring advanced filtering and interactive tables, providing a seamless interface for tracking political engagement. By refactoring the core site architecture into a multi-row responsive layout, I significantly enhanced the cross-device user experience. My contributions combined high-stakes stakeholder collaboration with technical precision, resulting in optimized brand identity through custom UI systems and the successful launch of media-rich event portals and community manifesto hubs.`}
+                titleTwo={"Frontend Developer (Internship) — Achota Limited"}
                 readmore={"Read more"}
                 hide={"Hide"}
-                more={"Achota Limited, Ebonyi State Nigeria"}
+                more={`During my tenure at Achota Limited, I was responsible for the design and deployment of several API-driven JavaScript applications, where I prioritized long-term scalability and system performance. I engineered a comprehensive library of reusable UI components using React, Tailwind CSS, and Material UI, which streamlined the development process and ensured a unified aesthetic across all platforms. My work extended into the data layer, where I integrated Firebase Firestore to manage real-time updates and secure authentication flows. By implementing organized code structures and optimizing data retrieval, I significantly improved overall project maintainability and frontend responsiveness.`}
               />
             </div>
           </div>
