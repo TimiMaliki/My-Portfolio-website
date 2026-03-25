@@ -83,7 +83,7 @@ const Navbar = () => {
 
           {/* GitHub Contact */}
 
-         <a href="https://github.com/TimiMaliki" target="_blank" rel="norefer">
+         <a href="https://github.com/TimiMaliki">
          <FaGithub className={`w-8 h-10 hover:text-blue-900 transition-all duration-300 ${darkMode ? "text-blue-700" : "text-slate-900"}`} />
          </a>
         </div>
