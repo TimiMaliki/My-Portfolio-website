@@ -43,7 +43,7 @@ const projectsData = [
     category: "Nextjs",
     tags: ["Nextjs", "TypeScript", "TailwindCss"],
     year: "2023",
-    link: "https://caped-stores.vercel.app/",
+    link: "https://caped-stores.vercel.app/Home",
   },
   {
     id: 1,

@@ -15,7 +15,7 @@ const LatestWorks = () => {
       image: caped,
       tags: ["NextJS", "TypeScript", "TailwindCSS"],
       year: "2023",
-      link: "https://caped-stores.vercel.app/",
+      link: "https://caped-stores.vercel.app/Home",
     },
     {
       title: "Dental Hospital landing page",
