@@ -1,7 +1,7 @@
 import Card from "../component/card";
 import Header from "../component/Headers";
 
-import profilePicture from "../img/timi-pictures/Timi-gym.jpeg";
+import profilePicture from "../img/timi-pictures/Timi.jpeg";
 import lang from "../img/tool/meeting_15644311.png";
 import edu from "../img/tool/graduated_13305391.png";
 import project from "../img/tool/briefcase_12090562.png";
