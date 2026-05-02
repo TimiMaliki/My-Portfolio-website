@@ -37,7 +37,7 @@ const AboutMe = () => {
         <div className="w-full details ovo-regular">
           <div className="intro">
             <h4 className="p-10 roboto md:p-5 text-lg font-light">
-              Self-taught Frontend Developer with 5+ years of experience
+              Self-taught Frontend Developer with 6 years of experience
               building scalable, high-performance web applications. Proficient
               in React.js, Next.js and TypeScript with a strong ability to transform
               complex Figma designs into pixel-perfect, responsive interfaces.
