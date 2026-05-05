@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import food from "../img/projects/food-recipes/Screenshot from 2025-04-23 02-29-56.png";
 import hospital from "../img/projects/hospital/Screenshot from 2024-12-27 21-52-57.png";
 import van from "../img/display-works/van.png";
+import jvn from "../img/projects/JewishForum/Jvn.png";
 import vid from "../img/projects/vid-call/Screenshot from 2025-04-23 02-22-29.png";
 import skin from "../img/projects/skin-care/Screenshot from 2025-04-23 02-33-04.png";
 import women from "../img/projects/women-fashion/Screenshot from 2025-04-23 03-13-29.png";
@@ -36,6 +37,15 @@ import rem from "../img/projects/JavaScript/js11.png";
 import caped from "../img/projects/Caped/caped2.png";
 
 const projectsData = [
+   {
+    title: "London Jewish Forum",
+    description: `A community platform for the London Jewish community.`,
+    image: jvn,
+    category: "Wix",
+    tags: ["Wix"],
+    year: "2026",
+    link: "https://www.londonjewishforum.org.uk/",
+  },
   {
     title: "Caped",
     description: `E-commerce Web Application.`,
@@ -131,8 +141,8 @@ const projectsData = [
     title: "Van Marjoli",
     description: "Get your cute dogs in Belgiium.",
     image: van,
-    category: "Wixx",
-    tags: ["Wixx"],
+    category: "WordPress",
+    tags: ["WordPress"],
     link: "https://www.vanmarjoli.be/",
   },
   {
@@ -284,7 +294,8 @@ const filters = [
   { id: "JavaScript", label: "JavaScript" },
   { id: "ReactJs", label: "ReactJs" },
   { id: "Nextjs", label: "Nextjs" },
-  { id: "Wixx", label: "Wixx" },
+   { id: "WordPress", label: "WordPress" },
+  { id: "Wix", label: "Wix" },
   { id: "GSAP", label: "GSAP" },
 ];
 
