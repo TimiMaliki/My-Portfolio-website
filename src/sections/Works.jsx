@@ -40,7 +40,7 @@ const LatestWorks = () => {
       image: light,
       tags: ["ReactJs", "TailwindCss"],
       year: "2023",
-      link: "https://lightrun.vercel.app",
+      link: "https://lightrun.vercel.app/blogs",
     },
   ];
 
