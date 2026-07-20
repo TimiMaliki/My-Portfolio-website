@@ -21,7 +21,7 @@ const AboutMe = () => {
       className="grid place-content-center w-full py-20  ovo-regular"
       id="about"
     >
-      <Header intro={"Introduction"} title={"About me"} />
+      <Header intro={"Introduction"} title={"ABOUT ME"} />
 
       <div className="w-full grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-0 p-0">
         {/* Image */}
@@ -29,27 +29,29 @@ const AboutMe = () => {
           <img
             src={profilePicture}
             alt="profilepicture"
-            className="w-full max-w-[350px] h-auto md:h-[450px] md:-mt-[128px] lg:-mt-[1428px] object-cover rounded-xl"
+            className="w-full max-w-[850px] h-auto md:h-[550px]  object-cover rounded-xl"
           />
         </div>
 
         {/* Details */}
         <div className="w-full details ovo-regular">
           <div className="intro">
-            <h4 className="p-10 roboto md:p-5 text-lg font-light">
-              Self-taught Frontend Developer with 6 years of experience
-              building scalable, high-performance web applications. Proficient
-              in React.js, Next.js and TypeScript with a strong ability to transform
-              complex Figma designs into pixel-perfect, responsive interfaces.
-              Experienced in integrating cloud-based backends such as Firebase
-              and Appwrite to create seamless, full-stack user experiences.
-              Passionate about writing clean, maintainable code and delivering
-              intuitive, user-focused products.
+            <h4 className="p-10 md:p-24 roboto md:p-2 text-2xl font-light">
+              Self-taught Frontend Developer with 6 years of experience building
+              scalable, high-performance web applications. Proficient in
+              React.js, Next.js and TypeScript with a strong ability to
+              transform complex Figma designs into pixel-perfect, responsive
+              interfaces. Experienced in integrating cloud-based backends such
+              as Firebase and Appwrite to create seamless, full-stack user
+              experiences. Passionate about writing clean, maintainable code and
+              delivering intuitive, user-focused products.
             </h4>
           </div>
+        </div>
+      </div>
 
-          {/* Cards */}
-          <div className="w-full md:w-full details-about grid grid-cols-1 md:grid-cols-2 gap-3 p-0 md:p-4">
+         {/* Cards */}
+          <div className="w-full md:w-full details-about grid grid-cols-1 md:grid-cols-3 gap-3 p-0 md:p-4">
             <div className="card-one p-2 md:p-2">
               <Card
                 icon={lang}
@@ -100,8 +102,6 @@ Since early 2026, I have led the frontend evolution for a major UK community org
               />
             </div>
           </div>
-        </div>
-      </div>
 
       <div className="tools py-0 md:py-10 ovo-regular">
         <div className="intro flex justify-center text-center  p-9">
