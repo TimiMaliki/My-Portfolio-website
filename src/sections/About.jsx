@@ -36,7 +36,7 @@ const AboutMe = () => {
         {/* Details */}
         <div className="w-full details ovo-regular">
           <div className="intro">
-            <h4 className="p-10 md:p-24 roboto md:p-2 text-2xl font-light">
+            <h4 className="p-10 md:p-24 roboto  text-2xl font-light">
               Self-taught Frontend Developer with 6 years of experience building
               scalable, high-performance web applications. Proficient in
               React.js, Next.js and TypeScript with a strong ability to
