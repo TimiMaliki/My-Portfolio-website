@@ -23,7 +23,7 @@ const Card = ({
         {header}
       </div>
       <div className="text p-10 roboto">
-        <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center  mb-4">
+        <p className="text-2xl w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center  mb-4">
           {coreSkill}
         </p>
         <p className="text-md w-full  md:text-lg font-normal flex md:flex justify-center md:justify-center align-middle text-center mb-4">
